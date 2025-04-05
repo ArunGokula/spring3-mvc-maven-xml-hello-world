@@ -1,0 +1,15 @@
+name: My First GH Actions Workflow
+on:
+  push:
+    branches: [ "master" ]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Display Java & கப்பல்துறை Version
+      run: |
+        echo java -version
+        echo docker -version 
