@@ -1,4 +1,4 @@
-
+o
 
 name: My First GH Actions Workflow
 
@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build with Ant
-      run: Hello Ulagamae!!
+      run: echo Hello Ulagamae!!
