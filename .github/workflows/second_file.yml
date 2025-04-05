@@ -12,4 +12,4 @@ jobs:
     - name: Display Java & கப்பல்துறை Version
       run: |
         echo java -version 
-        echo docker -version 
+        echo docker -v
