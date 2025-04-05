@@ -14,4 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build with Ant
-      run: echo Hello Ulagamae!!
+      run: |
+        echo Hello Ulagamae!!
+        echo Thirumba vandhuvitaen 
